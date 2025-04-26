@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Who Am I</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .info {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Who Am I</h1>
+
+    <div class="info">
+        <!-- Inline CSS applied to this paragraph -->
+        <p style="font-weight: bold;">Full Name: Norshafiqah Binti Ahmad Shukri</p>
+        <p>Age: 22</p>
+        <p>Educational Background: Degree in New Media Comunication</p>
+    </div>
+</body>
+</html>
